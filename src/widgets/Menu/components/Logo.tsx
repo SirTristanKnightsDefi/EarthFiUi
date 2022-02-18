@@ -34,9 +34,9 @@ const StyledLink = styled(Link)`
 const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) => {
   const isAbsoluteUrl = href.startsWith("http");
   if(isDark){
-    banner = 'https://gateway.pinata.cloud/ipfs/QmW2T2Yjc25XnvfY3gmasVekPvDip43YNfKLeXWV8QvJZY';
+    banner = 'https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR';
   } else {
-    banner = 'https://gateway.pinata.cloud/ipfs/QmW2T2Yjc25XnvfY3gmasVekPvDip43YNfKLeXWV8QvJZY';
+    banner = 'https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR';
   }
 
   return (
@@ -51,7 +51,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
       {isAbsoluteUrl ? (
         <StyledLink as="a" href={href} aria-label="Onyx home page">
           <img
-            src="https://gateway.pinata.cloud/ipfs/QmW2T2Yjc25XnvfY3gmasVekPvDip43YNfKLeXWV8QvJZY"
+            src="https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR"
             alt="Onyx Logo"
             className="mobile-icon"
           />
@@ -64,7 +64,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
       ) : (
         <StyledLink to={href} aria-label="Onyx home page">
           <img
-            src="https://gateway.pinata.cloud/ipfs/QmW2T2Yjc25XnvfY3gmasVekPvDip43YNfKLeXWV8QvJZY"
+            src="https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR"
             alt="Onyx Logo"
             className="mobile-icon"
           />
