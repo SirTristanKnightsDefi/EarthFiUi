@@ -80,7 +80,7 @@ const PanelFooter: React.FC<Props> = ({
           <PriceLink href="" target="_blank">
             <img
               src="https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR"
-              alt="Onyx Logo"
+              alt="EarthFi Logo"
               style={{
                 width: "24px",
                 marginRight: "8px",
@@ -93,7 +93,7 @@ const PanelFooter: React.FC<Props> = ({
           <Skeleton width={80} height={24}>
           <img
               src="https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR"
-              alt="Onyx Logo"
+              alt="EarthFi Logo"
               style={{
                 width: "24px",
                 marginRight: "8px",

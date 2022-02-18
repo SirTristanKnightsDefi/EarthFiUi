@@ -2436,11 +2436,11 @@ var Logo = function (_a) {
     }
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$m, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$n, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Onyx home page" },
-            React.createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR", alt: "Onyx Logo", className: "mobile-icon" }),
-            React.createElement("img", { src: banner, alt: "Onyx Logo", className: "desktop-icon" }))) : (React.createElement(StyledLink, { to: href, "aria-label": "Onyx home page" },
-            React.createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR", alt: "Onyx Logo", className: "mobile-icon" }),
-            React.createElement("img", { src: banner, alt: "Onyx Logo", className: "desktop-icon" })))));
+        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "EarthFi home page" },
+            React.createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR", alt: "EarthFi Logo", className: "mobile-icon" }),
+            React.createElement("img", { src: banner, alt: "EarthFi Logo", className: "desktop-icon" }))) : (React.createElement(StyledLink, { to: href, "aria-label": "EarthFi home page" },
+            React.createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR", alt: "EarthFi Logo", className: "mobile-icon" }),
+            React.createElement("img", { src: banner, alt: "EarthFi Logo", className: "desktop-icon" })))));
 };
 var templateObject_1$c;
 
@@ -2724,12 +2724,12 @@ var PanelFooter = function (_a) {
     }
     return (React.createElement(Container, null,
         React.createElement(SocialEntry, null, cakePriceUsd ? (React.createElement(PriceLink, { href: "", target: "_blank" },
-            React.createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR", alt: "Onyx Logo", style: {
+            React.createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR", alt: "EarthFi Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } }),
             React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(6)))) : (React.createElement(Skeleton, { width: 80, height: 24 },
-            React.createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR", alt: "Onyx Logo", style: {
+            React.createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR", alt: "EarthFi Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } })))),

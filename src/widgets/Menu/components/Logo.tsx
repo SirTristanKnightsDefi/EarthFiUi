@@ -49,28 +49,28 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="Onyx home page">
+        <StyledLink as="a" href={href} aria-label="EarthFi home page">
           <img
             src="https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR"
-            alt="Onyx Logo"
+            alt="EarthFi Logo"
             className="mobile-icon"
           />
           <img
             src={banner}
-            alt="Onyx Logo"
+            alt="EarthFi Logo"
             className="desktop-icon"
           />
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Onyx home page">
+        <StyledLink to={href} aria-label="EarthFi home page">
           <img
             src="https://metaclubbers.mypinata.cloud/ipfs/QmNvkXRSi3wUa8Eq2cCcPRqadyh5Yw9mTf4MdMvcQPzFDR"
-            alt="Onyx Logo"
+            alt="EarthFi Logo"
             className="mobile-icon"
           />
           <img
             src={banner}
-            alt="Onyx Logo"
+            alt="EarthFi Logo"
             className="desktop-icon"
           />
         </StyledLink>
